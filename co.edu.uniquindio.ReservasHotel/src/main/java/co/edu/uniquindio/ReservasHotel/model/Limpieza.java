@@ -13,4 +13,7 @@ public class Limpieza extends Servicio implements IConsumirServicio {
     public void habitacionDeServicio(){
         System.out.println("Servicio contratado en la habitacion 78");
     }
+
+    public Limpieza() {
+    }
 }

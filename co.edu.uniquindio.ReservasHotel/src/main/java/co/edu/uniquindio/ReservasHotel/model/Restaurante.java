@@ -2,6 +2,9 @@ package co.edu.uniquindio.ReservasHotel.model;
 
 public class Restaurante extends Servicio {
 
+    public Restaurante() {
+    }
+
     @Override
     public void consumir() {
         System.out.println("Se uso el servicio de restaurante");

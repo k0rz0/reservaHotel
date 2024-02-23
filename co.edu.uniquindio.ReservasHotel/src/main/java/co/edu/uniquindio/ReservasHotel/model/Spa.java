@@ -2,6 +2,8 @@ package co.edu.uniquindio.ReservasHotel.model;
 
 
 public class Spa extends Servicio {
+    public Spa(){
+    }
 
     @Override
     public void consumir() {
